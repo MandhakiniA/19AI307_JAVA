@@ -1,35 +1,57 @@
-# Ex.No:1(E)  STATIC VARIABLE
+# Ex.No:1(E) STRINGS AND MATH FUNCTION
+
+## QUESTION:
+
+<img width="545" height="193" alt="image" src="https://github.com/user-attachments/assets/fd6e9d9c-123e-4200-a1ce-148df5388e0b" />
 
 ## AIM:
-To write a Java program to print student details (name and age), where age is the same for all students. Use a static variable to represent the age and demonstrate its use in accessing a shared value across all class objects
+
+To write a Java program to reverse a given string.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Create a class named Student.
-3.	Declare a static variable age in the Student class.
-4.	Declare an instance variable name.
-5.	Create a constructor to initialize the student's name.
-6.	Define a method displayDetails() to print the student's name and age.
-7.	In the main method:
-I.	Assign a value to the static variable age.
-II.	Create multiple Student objects with different names.
-III.	Call the displayDetails() method for each student.
-8.	End the program.
 
+```
+1️.Start
+2️. Declare a string variable str.
+3️. Declare another string variable rev and initialize it as an empty string.
+4️. Input the string from the user.
+5️. Find the length of the string.
+6️. Repeat from the last character of the string to the first character:
+    • Add each character to the variable rev.
+7️. Store the reversed characters in rev.
+8️. Print the result as:
+    Reversed string: + rev
+9️. Stop
 
-
-## PROGRAM:
- ```
-/*
-Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
-*/
 ```
 
-## Sourcecode.java:
+## PROGRAM:
+## SOURCE CODE:
 
+```
+import java.util.Scanner;
 
+public class ReverseString {
+
+    public static String reverse(String str) {
+        String reversed = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reversed += str.charAt(i);
+        }
+        return reversed;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String input = sc.nextLine();
+
+        String result = reverse(input);
+        System.out.println("Reversed string: " + result);
+    }
+}
+
+```
 
 
 
@@ -37,8 +59,11 @@ RegisterNumber:
 
 ## OUTPUT:
 
+<img width="818" height="399" alt="image" src="https://github.com/user-attachments/assets/0bb03b45-6bdb-4e12-9f87-10d030216cd5" />
 
 
 ## RESULT:
-Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
+
+Thus , the program was executed Successfully.
+
 
