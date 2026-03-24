@@ -1,51 +1,29 @@
-Skip to content
-Vinothkumar-honesty
-19AI307_JAVA
-Repository navigation
-Code
-Pull requests
-Actions
-Projects
-Security
-Insights
-19AI307_JAVA/Module-03
-/DAY-5(B)/
-Go to file
-t
-Vinothkumar-honesty
-Vinothkumar-honesty
-Update developer name and registration number
-156e7e6
- · 
-1 hour ago
-This branch is 18 commits ahead of and 22 commits behind Priyasenthil17/19AI307_JAVA:main.
-19AI307_JAVA/Module-03
-/DAY-5(B)/
-Name	Last commit message	Last commit date
-..
-README.md
-Update developer name and registration number
-1 hour ago
-README.md
-Ex.No:3(F) WRAPPER CLASS
-QUESTION:
+
+
+# Ex.No:3(F) WRAPPER CLASS
+
+## QUESTION:
 Find the largest digit in a number using wrapper class methods.
 
-AIM:
+## AIM:
 To write a Java program to find the largest digit in a given number using Wrapper Class methods.
 
-ALGORITHM :
-Start the program.
-Import the necessary package 'java.util'
-Read the number from the user.
-Convert the number to a string using wrapper class Integer.toString().
-Traverse each character, convert it back to an integer using Character.getNumericValue().
-Compare digits and store the largest digit.
-Display the largest digit.
-Stop the program.
-PROGRAM:
+## ALGORITHM :
+1.	Start the program.
+2.	Import the necessary package 'java.util'
+3.	Read the number from the user.
+4. Convert the number to a string using wrapper class Integer.toString().
+5. Traverse each character, convert it back to an integer using Character.getNumericValue().
+6. Compare digits and store the largest digit.
+7. Display the largest digit.
+8. Stop the program.
 
-SOURCE CODE:
+## PROGRAM:
+
+
+
+## SOURCE CODE:
+```
 import java.util.Scanner;
 
 public class LargestDigit {
@@ -67,10 +45,16 @@ public class LargestDigit {
         sc.close();
     }
 }
-OUTPUT:
-java36
+```
 
-RESULT:
+
+
+## OUTPUT:
+
+![java36](https://github.com/ABINAYA-27-76/19AI307_ODD-25-26-/blob/81caee57fce6fff987403423e665ea8f13ba347d/19AI307_JAVA(25-26)/Module-03/DAY-5(B)/java36.png)
+
+## RESULT:
 Thus, the program to find the largest digit in a number using Wrapper Class methods was successfully executed.
 
- 
+
+
